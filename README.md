@@ -1,34 +1,99 @@
 # PRACTICAS-9-10-EED-2026
 
-Prácticas correspondientes a los temas 9 y 10 de Entornos de Desarrollo.
+Repositorio correspondiente a las prácticas de los temas 9 y 10 de la asignatura **Entornos de Desarrollo**.
 
-## Ejercicio 1 - JUnit
+En estas prácticas se han trabajado diferentes herramientas y técnicas relacionadas con la calidad del software, las pruebas, la refactorización y la documentación de aplicaciones Java.
 
-Proyecto Java con pruebas unitarias.
+---
 
-## Ejercicio 2 - Cobertura
+## Ejercicio 1 - Pruebas unitarias con JUnit
 
-Análisis de cobertura realizado con EclEmma.
+Desarrollo de una aplicación Java para el cálculo de la superficie y el perímetro de un rectángulo.
 
-Cobertura obtenida: 100%.
+Se han implementado pruebas unitarias utilizando **JUnit** para verificar el correcto funcionamiento de la aplicación en diferentes situaciones:
 
-## Ejercicio 3 - SonarLint
+* Valores positivos.
+* Valores negativos.
+* Valores iguales a cero.
 
-Análisis estático de código mediante SonarLint.
+---
+
+## Ejercicio 2 - Cobertura del juego de pruebas
+
+Análisis de cobertura realizado mediante **EclEmma**.
+
+El objetivo de esta práctica ha sido comprobar que los casos de prueba desarrollados cubren completamente el código de la aplicación.
+
+### Resultados obtenidos
+
+* Cobertura de instrucciones: 100%
+* Cobertura de ramas: 100%
+* Instrucciones no cubiertas: 0
+
+---
+
+## Ejercicio 3 - SonarLint en acción
+
+Análisis estático de código utilizando **SonarLint** para detectar problemas de calidad y posibles mejoras en el código fuente.
+
+Además, se ha realizado una comparativa entre **SonarLint** y **SonarQube**, estudiando sus principales similitudes y diferencias.
+
+---
 
 ## Ejercicio 4 - Refactorización
 
-Refactorización del proyecto:
+Aplicación de diferentes técnicas de refactorización utilizando las herramientas integradas de Eclipse.
 
-- Cambio de nombres a inglés.
-- Extracción de constantes.
-- Extracción de métodos.
-- Eliminación de código duplicado.
+### Refactorizaciones realizadas
+
+* Cambio del nombre de la clase `Rectangulo` a `Rectangle`.
+* Cambio del nombre de los métodos `area()` y `perimetro()` a `surface()` y `perimeter()`.
+* Extracción de constantes.
+* Extracción de métodos.
+* Eliminación de código duplicado.
+* Verificación posterior mediante pruebas unitarias.
+
+---
 
 ## Ejercicio 5 - Documentación
 
-Generación de documentación Javadoc y documentación Markdown.
+Generación de documentación mediante **Javadoc** incluyendo:
 
-## Autor
+* Autor.
+* Versión.
+* Parámetros.
+* Valores de retorno.
+
+También se ha elaborado este documento README utilizando **Markdown** para documentar el contenido del repositorio.
+
+---
+
+## Tecnologías utilizadas
+
+* Java
+* Eclipse IDE
+* JUnit 5
+* EclEmma
+* SonarLint
+* Javadoc
+* GitHub
+* Markdown
+
+---
+
+## Estructura del repositorio
+
+```text
+PRACTICAS-9-10-EED-2026
+│
+├── EjemploJUnit.zip
+├── 02_Cobertura_del_juego_de_pruebas.pdf
+├── 03_SonarLint_en_accion.pdf
+└── README.md
+```
+
+---
+
+## Autora
 
 Elena Pérez Chagas
